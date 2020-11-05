@@ -20,8 +20,8 @@ public class PopulaMovimentacoesComCategoria {
     	EntityManagerFactory emf = Persistence.createEntityManagerFactory("alura");
 		EntityManager em = emf.createEntityManager();
 
-        Categoria categoria1 = new Categoria("Viagem");
-        Categoria categoria2 = new Categoria("NegÃ³cios");
+		Categoria categoria1 = new Categoria("Viagem");
+        Categoria categoria2 = new Categoria("Negócios");
 
         Conta conta = new Conta();
         conta.setTitular("Maria");
